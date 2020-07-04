@@ -33,24 +33,28 @@ body {
     left: 40%;
     opacity: 1;
     transform: translatey(50px) scale(1.5, 1.5);
+
+    /* animation-iteration-count: infinite; */
   }
 }
 
 @keyframes door1 {
   0% {
-    animation-delay: 5000ms;
   }
   100% {
     transform: translatex(-90%);
+
+    /* animation-iteration-count: infinite; */
   }
 }
 
 @keyframes door2 {
   0% {
-    animation-delay: 5000ms;
   }
   100% {
     transform: translatex(90%);
+
+    /* animation-iteration-count: infinite; */
   }
 }
 
@@ -60,6 +64,8 @@ body {
   100% {
     opacity: 1;
     transform: translate(0, -100px) rotate(360deg) scale(4, 4);
+
+    /* animation-iteration-count: infinite; */
   }
 }
 
@@ -74,8 +80,9 @@ body {
   animation-name: lift;
   animation-duration: 5000ms;
   animation-timing-function: linear;
-  /* animation-delay: ; */
   animation-iteration-count: 1;
+  /* animation-delay: ;  */
+
   animation-direction: forwards;
   /* animation-play-state: paused; */
   animation-fill-mode: forwards;
@@ -111,8 +118,6 @@ body {
   animation-delay: 5000ms;
   animation-fill-mode: forwards;
   /* animation-iteration-count: infinite; */
-
-  /* transform: translatex(-100%); */
 }
 
 .door2 {
@@ -129,6 +134,4 @@ body {
   animation-delay: 5000ms;
   animation-fill-mode: forwards;
   /* animation-iteration-count: infinite; */
-
-  /* transform: translatex(100%); */
 }
