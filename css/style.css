@@ -94,16 +94,19 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
+
   animation: ghost 1000ms;
   animation-delay: 6000ms;
   animation-fill-mode: forwards;
   /* animation-iteration-count: infinite; */
 }
 
-/* .door-conteiner {
+.door-conteiner {
+  width: 200px;
+  height: 200px;
   position: relative;
   overflow: hidden;
-} */
+}
 .door1 {
   width: 100px;
   height: 200px;
