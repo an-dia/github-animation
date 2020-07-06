@@ -8,6 +8,9 @@ html {
   box-sizing: inherit;
 }
 
+/* html {
+  zoom: 50%;
+} */
 body {
   background-color: #77cafa;
 }
